@@ -1,19 +1,19 @@
 package com.example.pokedex_to_hexagonal.domain.model;
 
 public class Photo {
-    private String id;
+    private Long id;
     private byte[] photo;
 
-    public Photo(String id, byte[] photo) {
+    public Photo(Long id, byte[] photo) {
         this.id = id;
         this.photo = photo;
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
