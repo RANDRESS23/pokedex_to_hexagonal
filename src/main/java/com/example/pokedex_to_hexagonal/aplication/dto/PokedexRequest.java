@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class PokemonRequest {
+public class PokedexRequest {
     private Long number;
     private String name;
     private Type types;
